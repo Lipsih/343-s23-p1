@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Order View</title>
+  <link rel="icon" type="image" href="images/favicon.png">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/orders.css">
+  <meta name="viewport" content="width=device-width"/>
+</head>
+
+<body>
+<header class="top-nav dispatch-shadow-border">
+  <nav class="dispatch-row dispatch-max-width dispatch-align-content-center dispatch-align-items-center">
+    <div class="dropdown dispatch-even-margin-lr">
+      <img src="images/menu.svg" class="dispatch-icon-med" alt="menu icon">
+      <div class="dropdown-content">
+        <a class="dropdown-item" href="/index.html">Dashboard</a>
+        <a class="dropdown-item" href="/orders.html">Orders</a>
+        <a class="dropdown-item" href="/transactions.html">Transactions</a>
+        <a class="dropdown-item" href="/about.html">About</a>
+      </div>
+    </div>
+    <div class="dispatch-even-margin-lr">
+      <img src="images/favicon.png" alt="App logo"/>
+    </div>
+
+    <div class="dispatch-even-margin-lr">
+      <span class="dispatch-bold">Photo System</span>
+    </div>
+    <div class="nav-bar">
+      <a class="nav-item" href="/index.html">Dashboard</a>
+      <a class="nav-item active" href="/orders.html">Orders</a>
+      <a class="nav-item" href="/transactions.html">Transactions</a>
+      <a class="nav-item" href="/about.html">About</a>
+    </div>
+    <div class="dispatch-ml-auto dispatch-even-margin-r"><img class="dispatch-icon-med" src="images/account_circle.svg"
+                                                              alt="account image"></div>
+  </nav>
+</header>
+
+<div class="dispatch-container" style="height: calc(100% - 3rem);">
+  <div class="dispatch-col-auto dispatch-no-margin-on-print">
+    <div class="dispatch-absolute-container dispatch-even-padding dispatch-col-form-xl">
+
+      <div class="dispatch-row dispatch-even-margin-tb">
+        <div class="dispatch-grow"><h1>Order: #00000</h1></div>
+        <div class="dispatch-row">
+          <button class="order_button dispatch-row dispatch-align-items-center dispatch-even-margin-r"><img
+            class="dispatch-icon-med"
+            src="images/edit.svg" alt="Delete">
+            <span class="hide-on_mobile">Edit Order</span>
+          </button>
+          <button class="order_button dispatch-row dispatch-align-items-center"><img class="dispatch-icon-med"
+                                                                                     src="images/delete.svg" alt="Delete">
+            <span class="hide-on_mobile">Drop from Queue</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="dispatch-even-margin-b">
+        <h2>Order Summary</h2>
+        <div class="dispatch-row dispatch-even-margin-tb">
+          <span class="dispatch-bold">Customer:&nbsp;</span>John Doe
+        </div>
+        <div class="dispatch-row dispatch-even-margin-tb">
+          <span class="dispatch-bold">Date Placed:&nbsp;</span>15-Feb-2023
+        </div>
+        <div class="dispatch-row dispatch-even-margin-tb">
+          <span class="dispatch-bold">Due Date:&nbsp;</span>18-Feb2023
+        </div>
+        <div class="dispatch-row dispatch-even-margin-tb">
+          <span class="dispatch-bold">Status:&nbsp;</span>Active
+        </div>
+      </div>
+
+      <div class="dispatch-border dispatch-border-round">
+
+        <div class="card-row">
+          <div class="card-col dispatch-even-padding">
+            <span class="dispatch-bold">Item</span>
+          </div>
+          <div class="card-col dispatch-even-padding">
+            <span class="dispatch-bold">Quantity</span>
+          </div>
+          <div class="card-col dispatch-even-padding">
+            <span class="dispatch-bold">Amount</span>
+          </div>
+        </div>
+
+        <div class="card-row dispatch-border-t">
+          <div class="card-col dispatch-even-padding">
+            <span>4x6 Print</span>
+          </div>
+          <div class="card-col dispatch-even-padding">
+            <span>64</span>
+          </div>
+          <div class="card-col dispatch-even-padding">
+            <span>$13.74</span>
+          </div>
+        </div>
+
+        <div class="card-row dispatch-border-t">
+          <div class="card-col dispatch-even-padding">
+            <span>8x10 Print</span>
+          </div>
+          <div class="card-col dispatch-even-padding">
+            <span>2</span>
+          </div>
+          <div class="card-col dispatch-even-padding">
+            <span>$4.89</span>
+          </div>
+        </div>
+
+        <div class="card-row dispatch-border-t">
+          <div class="card-col dispatch-even-padding">
+            <span>20x30 Internet Canvas</span>
+          </div>
+          <div class="card-col dispatch-even-padding">
+            <span>1</span>
+          </div>
+          <div class="card-col dispatch-even-padding">
+            <span>$32.99 (Promo applied)</span>
+          </div>
+        </div>
+
+        <div class="card-row dispatch-border-t">
+          <div class="card-col dispatch-even-padding">
+            <span></span>
+          </div>
+          <div class="card-col dispatch-even-padding">
+            <span></span>
+          </div>
+          <div class="card-col dispatch-even-padding">
+            <span class="dispatch-bold">Total: $51.62</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+<footer class="footer">
+  <span>Created by Ernie and Ian</span>
+</footer>
+</html>
